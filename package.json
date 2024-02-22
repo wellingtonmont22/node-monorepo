@@ -5,8 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "turbo dev --parallel",
-    "build": "turbo build --parallel"
+    "dev": "dotenv -- turbo dev --parallel",
+    "build": "dotenv -- turbo build --parallel"
   },
   "workspaces": [
     "apps/*",
@@ -16,6 +16,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "turbo": "^1.12.4"
+    "dotenv-cli": "^7.3.0",
+    "turbo": "^1.12.4",    
+    "typescript": "^5.3.3"
   }
 }
