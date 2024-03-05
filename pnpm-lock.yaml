@@ -15,11 +15,14 @@ importers:
         specifier: ^1.12.4
         version: 1.12.4
 
-  apps/api-upload:
+  apps/api:
     dependencies:
       express:
         specifier: ^4.18.2
         version: 4.18.2
+      utils-string:
+        specifier: workspace:^
+        version: link:../../packages/utils-string
       zod:
         specifier: ^3.22.4
         version: 3.22.4
@@ -40,11 +43,13 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
 
-  apps/front-upload:
+  apps/front:
     devDependencies:
       vite:
         specifier: ^5.1.4
         version: 5.1.4
+
+  packages/utils-string: {}
 
 packages:
 
