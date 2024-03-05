@@ -49,7 +49,11 @@ importers:
         specifier: ^5.1.4
         version: 5.1.4
 
-  packages/utils-string: {}
+  packages/utils-string:
+    devDependencies:
+      typescript:
+        specifier: ^5.3.3
+        version: 5.3.3
 
 packages:
 
