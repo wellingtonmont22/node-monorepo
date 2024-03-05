@@ -1,5 +1,5 @@
 {
-  "name": "node-upload-monorepo",
+  "name": "node-monorepo",
   "version": "1.0.0",
   "private": true,
   "description": "",
@@ -17,7 +17,6 @@
   "license": "ISC",
   "dependencies": {
     "dotenv-cli": "^7.3.0",
-    "turbo": "^1.12.4",    
-    "typescript": "^5.3.3"
+    "turbo": "^1.12.4"
   }
 }

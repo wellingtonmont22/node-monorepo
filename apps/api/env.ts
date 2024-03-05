@@ -12,4 +12,5 @@ const envSchema = z.object({
     .pipe(z.number().int())
     .default(3000),
 });
+
 export const env = envSchema.parse(process.env);
